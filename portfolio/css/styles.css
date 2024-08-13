@@ -53,5 +53,8 @@ img{
 #social{
     width: 30px;
     height: 30px;
-
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
+
+
