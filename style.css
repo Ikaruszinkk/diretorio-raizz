@@ -1,0 +1,42 @@
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+thead {
+    background-color: #21d827;
+    color: white;
+}
+table {
+    width: 350px;
+    border-collapse: collapse;
+    margin: 10px auto;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+div {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    border: 1px solid #4CAF50;
+    max-width: 450px;
+    margin: 20px auto;
+}
+body{
+    background-color: black;
+}
+
+td{
+    color: aliceblue;
+}
+
+a{
+    color: purple;
+}
