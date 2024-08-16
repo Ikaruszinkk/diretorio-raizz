@@ -51,8 +51,8 @@ img{
     border: 10px solid rgb(0, 0, 0);
 }
 #social{
-    width: 30px;
-    height: 30px;
+    width: 3vw;
+    height: 3vw;
     flex-wrap: wrap;
     align-items: flex-end;
 }
@@ -61,4 +61,14 @@ img{
     margin: 10px auto;
     display: flex;
     justify-content: center;
+}
+div{
+    border-radius: 10px;
+    border: 8px solid rgb(163, 163, 163);
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+.social-icon:hover {
+    transform: scale(1.4);
 }
