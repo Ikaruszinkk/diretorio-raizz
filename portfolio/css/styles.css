@@ -45,21 +45,24 @@ h4{
     color: #ffffff;
 }
 img{
-    width: 22vw;
-    min-height: 10vw;
-    min-width: 10vw;
+    width: 20vw;
     display: block;
     margin: auto;
     border: 10px solid rgb(0, 0, 0);
 }
 #social{
-    width: 30px;
-    height: 30px;
+    width: 5vw;
+    height: 5vw;
+    min-height: 5vw;
+    min-width: 5vw;
     flex-wrap: wrap;
     align-items: flex-end;
 }
 .social{
-    
+    width: 3vw;
+    height: 3vw;
+    min-height: 3vw;
+    min-width: 3vw;
     margin: 10px auto;
     display: flex;
     justify-content: center;
