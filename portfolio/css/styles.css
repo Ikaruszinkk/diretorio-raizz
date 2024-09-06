@@ -45,7 +45,9 @@ h4{
     color: #ffffff;
 }
 img{
-    width: 20vw;
+    width: 22vw;
+    min-height: 10vw;
+    min-width: 10vw;
     display: block;
     margin: auto;
     border: 10px solid rgb(0, 0, 0);
