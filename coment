@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentários</title>
+    <link rel="stylesheet" href="comment.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+    <header>
+
+    <div class="logo">
+        <img src="img/Logo Pet shop roxo.png" alt="Logo do Pet's World">
+    </div>
+
+
+    <nav>
+        <ul>
+            <li class="ativo"><a href="#">Início</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Contatos</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="icone">
+        <img src="/img/MW4ON7S7AJIGBCD3KEAWLG4WZA.png" alt="Ícone de perfil">
+    </div>
+    </header>
+<body>
+    <div class="comment-section">
+        <div class="add-comment">
+            <img src="user-placeholder.png" alt="User">
+            <input type="text" placeholder="Adicione um Comentário...">
+        </div>
+        <div class="comment">
+            <img src="user1.png" alt="Velhinha_tranqueira123">
+            <div class="comment-content">
+                <h4>Velhinha_tranqueira123 <span>Há 2 semanas</span></h4>
+                <p>Muito bom o Site, adotei um viralata poggers ;)</p>
+            </div>
+        </div>
+        <div class="comment">
+            <img src="user2.png" alt="Sortudo_Lindinho">
+            <div class="comment-content">
+                <h4>Sortudo_Lindinho <span>Há 1 mês</span></h4>
+                <p>Site maneiro, adotei meu gatinho aí, 0 arrependimentos!!!</p>
+            </div>
+        </div>
+        <div class="comment">
+            <img src="user3.png" alt="Moça_Bonita20">
+            <div class="comment-content">
+                <h4>Moça_Bonita20 <span>Há 1 mês</span></h4>
+                <p>Adoreiiii, Ótimo Site, eu realmente não sabia que precisava de um animalzinho até achar o meu aqui.</p>
+            </div>
+        </div>
+        <div class="comment">
+            <img src="user4.png" alt="Marcos Matos Matematica Mestre Mago">
+            <div class="comment-content">
+                <h4>Marcos Matos Matematica Mestre Mago <span>Há 3 meses</span></h4>
+                <p>Bem maneirim, boa interface, bom atendimento, adotei meu doguinho aqui, show de bola</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.comment-section {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.comment {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.comment img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.comment-content {
+    max-width: 80%;
+}
+.comment-content h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+.comment-content p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+.comment-content span {
+    font-size: 12px;
+    color: #999;
+}
+.add-comment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.add-comment img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.add-comment input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.volta-button {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
